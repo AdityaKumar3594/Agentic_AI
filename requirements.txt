@@ -1,4 +1,7 @@
 langchain-core
 langchain-mistralai
-dotenv
-langchain
+python-dotenv
+langchain-community
+langchain-tavily
+tavily
+rich
