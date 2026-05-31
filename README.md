@@ -13,6 +13,7 @@
 - **runnablepassthrough.py**: Shows `RunnablePassthrough` combined with a code-generation prompt and an explanation prompt; composes runnables and prints both code and explanation outputs.
 - **sequencerunnable.py**: Simple `prompt | model | parser` sequence using `ChatMistralAI` and `StrOutputParser`.
 - **toolcalling.py**: Interactive example where an LLM binds to a tool (`get_text_length`) and the script handles tool-calls and final responses.
+- **streamlit_app.py**: Streamlit web UI for fetching weather or news by city using the same API workflows and `.env` keys.
 
 **How to run**
 
@@ -40,4 +41,10 @@ TAVILY_API_KEY=your_tavily_key
 
 ```powershell
 python {filename}.py
+```
+
+5. Run the Streamlit interface:
+
+```powershell
+streamlit run streamlit_app.py
 ```

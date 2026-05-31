@@ -5,3 +5,4 @@ langchain-community
 langchain-tavily
 tavily
 rich
+streamlit
